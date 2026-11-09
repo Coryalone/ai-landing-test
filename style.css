@@ -30,3 +30,24 @@
 @media(max-width:1100px){.problem{display:block}.problem-grid{margin-top:35px}.problem-card{min-height:230px}}
 @media(max-width:850px){.hero-art:before{inset:0;background-position:58% center;opacity:.65}.hero:after{background:linear-gradient(90deg,#0b1420f5,#0b1420c4 60%,#0b142068),linear-gradient(0deg,#0b1420,transparent 25%)}}
 @media(max-width:520px){.hero h1{font-size:clamp(2.8rem,11vw,4.3rem)}.hero-art:before{background-position:55% center;opacity:.5}.problem{padding-top:70px;padding-bottom:70px}.problem-grid{margin-top:25px}.problem-card{min-height:210px}}
+
+/* v0.3 UX & Clarity — deliberate type hierarchy, clear interaction */
+:root{--gold:#c8a66a}
+h1,h2,h3{font-family:Manrope,Arial,sans-serif}
+.problem h2,.demo-heading h2,.closing h2{font-family:Manrope,Arial,sans-serif;font-weight:600;letter-spacing:-.055em;line-height:1.16}
+.problem h2 em,.demo-heading h2 em,.closing h2 em{font-family:inherit;color:inherit;font-weight:inherit}
+.hero h1{font-size:clamp(2.7rem,4.8vw,5.25rem);max-width:1050px;letter-spacing:-.052em;line-height:1.18}
+.hero h1 em{font-family:Marcellus,Georgia,serif;color:#e1ac54;letter-spacing:-.045em}
+.hero-copy{max-width:555px;font-size:16px;line-height:1.75}
+.problem .section-head h2{font-size:clamp(2.5rem,3.6vw,4rem)}
+.demo-heading h2{font-size:clamp(2.6rem,4.2vw,4.6rem);max-width:760px}
+.demo-heading{margin-bottom:30px;align-items:center}
+.demo-section{padding-top:80px;padding-bottom:100px}
+.closing h2{font-size:clamp(2.6rem,4.5vw,5rem)}
+#demo-console{scroll-margin-top:22px}
+.console-bottom .btn{min-width:230px}
+.result-group:nth-child(3){border-left:2px solid #c96554;padding-left:15px}
+.result-group:last-child{border-left:2px solid #c8a66a;padding-left:15px}
+.result-group .result-label{letter-spacing:.11em}
+@media(max-width:850px){.hero h1{font-size:clamp(2.7rem,7vw,4.5rem)}.demo-section{padding-top:70px}.demo-heading{margin-bottom:25px}}
+@media(max-width:520px){.hero h1{font-size:clamp(2.45rem,10vw,3.5rem)}.hero-copy{font-size:14px}.demo-heading h2{font-size:clamp(2.5rem,10vw,3.5rem)}#demo-console{scroll-margin-top:12px}}
