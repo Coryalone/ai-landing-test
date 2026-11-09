@@ -5,7 +5,7 @@
    Previous version preserved on backup-v0.1. */
 .hero{background:#0b1420;min-height:760px}
 .hero-art{background:radial-gradient(ellipse at 75% 34%,#a26a252e,transparent 55%),linear-gradient(90deg,#0b1420 0%,#101722 100%)}
-.hero-art:before{content:"";position:absolute;inset:0 0 0 35%;background-image:linear-gradient(90deg,#0b1420 0%,#0b1420aa 12%,transparent 44%),url("./assets/imperium-hero.webp");background-size:cover;background-position:center center;filter:saturate(1.14) contrast(1.12)}
+.hero-art:before{content:"";position:absolute;inset:0 0 0 35%;background-image:linear-gradient(90deg,#0b1420 0%,#0b1420aa 12%,transparent 44%),url("./assets/imperium-hero-v2.png");background-size:cover;background-position:center center;filter:saturate(1.14) contrast(1.12)}
 .hero-art:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 80% 0%,#ffc66d38,transparent 36%),linear-gradient(0deg,#0b1420 0%,transparent 24%)}
 .vault{display:none}
 .hero:after{background:linear-gradient(90deg,#0b1420 0%,#0b1420eb 23%,#0b14207a 46%,transparent 72%),linear-gradient(0deg,#0b1420a0,transparent 22%)}
